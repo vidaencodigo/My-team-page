@@ -50,3 +50,53 @@ body {
     font-size: 14px;
     line-height: 21px;
 }
+
+
+/*grid*/
+
+.main__team__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.grid__item {
+    position: relative;
+}
+
+.absol {
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    right: -70px;
+}
+
+.image {
+    width: 85%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.member__position {
+    transform: rotate(90deg);
+    font-size: 10px;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 13.25px;
+}
+
+.member__name {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.--item-2 {
+    margin-top: 38px;
+}
