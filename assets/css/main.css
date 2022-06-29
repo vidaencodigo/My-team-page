@@ -92,7 +92,7 @@ body {
 
 .absol {
     position: absolute;
-    right: 10px;
+    right: 5px;
     writing-mode: vertical-lr;
     font-family: 'PT Serif';
     font-style: normal;
@@ -105,4 +105,84 @@ body {
 
 .--item-2 {
     margin-top: 38px;
+}
+
+.attribution {
+    width: 100%;
+    padding: 1em;
+    margin-top: 33px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #A9A9A9;
+
+}
+
+.attribution a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+@media(min-width:768px) {
+    .absol {
+        font-size: 12px;
+        right: 0;
+    }
+
+    .image {
+        width: 95%;
+    }
+
+    .member__name {
+        font-size: 16px;
+    }
+}
+
+@media(min-width:1024px) {
+    .image {
+        width: 90%;
+    }
+
+    .main__team__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .member__name {
+        font-size: 18px;
+    }
+
+    .main__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main {
+        padding: 0 240px;
+    }
+
+    .main__information p {
+        width: 100%;
+        font-size: 16px;
+
+    }
+
+}
+
+@media(min-width:1440px) {
+    .image {
+        width: 95%;
+    }
+
+    .main__information p {
+        width: 80%;
+
+    }
+
 }
